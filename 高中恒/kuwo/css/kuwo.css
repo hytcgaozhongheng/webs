@@ -200,5 +200,12 @@
 .hzhbli a{display: block;margin-right: 10px; text-decoration: none;color: #1c67ac; float: left;font-size: 12px;margin-top: 5px; margin-bottom: 8px;}
 .hzhbli a:hover{text-decoration: underline;}
 #footer{width: 1000px;height: 130px;margin: auto;}
-
-
+.footerul li{width: 142px;height: 130px;float: left;}
+.footerul span{display: block;margin-top: 5px;}
+.footerul a{display: block;margin-top: 5px;color:#1c67ac;text-decoration:none;font-size: 12px; }
+.footerul a:hover{text-decoration: underline;}
+#footerdown{width: 100%;height: 105px;margin: auto}
+.footerdownul ul{;display: block;text-align: center;}
+.footerdownul li{width: auto;margin: auto;text-align: center;}
+.footerdownul a{cursor: auto;font-size: 12px;color: #1c67ac;text-decoration: none;}
+.footerdownul span{font-size: 12px;}
