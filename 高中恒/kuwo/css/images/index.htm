@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>无标题文档</title>
+<style type="text/css">
+html{overflow-x:hidden;overflow-y:hidden;}
+body{margin:0px;}
+</style>
+<style>
+.updateMboxPage{zoom:1;position:absolute;left:0;top:0;z-index:1001;margin:0px;padding:0px;width:300px;height:250px; background:#000;-moz-opacity:0;filter:alpha(opacity=0);opacity:0;display:block;}
+.closeIcon{ width:40px; height:18px; display:block; position:absolute; top:0; right:0; line-height:18px;font-size:12px;font-weight:bold;text-decoration:none;color:#fff;background:#6e777b;z-index:1005;}
+</style>
+<script>function killerr(){return true;}window.onerror=killerr;</script>
+</head>
+<body style="border:0px; margin:0; background-color:white;">
+<div id="swfdiv">
+<object id="swf" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7" width="300" height="250">
+<param name="movie" value="1406028032621.swf" /><param name="allowScriptAccess" value="always"/><param name='wmode' value='opaque' /><param name="quality" value="high" /><embed src="1406028032621.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="300" height="250" quality="high" wmode="Opaque" allowScriptAccess="always"></embed></object>
+</div>
+<script>
+var param=window.location.href;
+try{param=decodeURIComponent(param);}catch(e){}
+var mboxVer="";
+var mboxExternalVer="";
+try{mboxExternalVer=window.external.callkwmusic('GetVer');} catch(e){};
+var vidx1=param.indexOf('ver=');
+if(vidx1>-1){
+var subparam=param.substring(vidx1);
+vidx2=subparam.indexOf('&');
+if(vidx2>-1){
+mboxVer=subparam.substring(4,vidx2);
+}
+else{
+mboxVer=subparam.substring(4);
+}
+}
+mboxVer=mboxVer.toUpperCase();
+var link='http://g.koowo.com/g.real?aid=html_ad_5106&ver='+mboxVer+'&url=http://x.kuwo.cn/KuwoLive/OpenLiveRoomLinkForKw?from=1001001016'
+var curHtml=document.getElementById('swfdiv').innerHTML;
+document.getElementById('swfdiv').innerHTML=curHtml+'<a onclick="return clk(link)" class="updateMboxPage" href="#" target="_blank" hidefocus="true"></a>';
+function clk(lnk)
+{
+var inBox=0;
+try {
+inBox=window.external.callkwmusic('IsInKwmusic');
+}catch(e){}
+var lsp =  "";
+try {
+	lsp = window.external.callkwmusic('LiveShowParam');
+}catch(e){
+}
+lnk = lnk+lsp;
+if(inBox==1)
+{
+var b64link=window.external.callkwmusic('URLBase64 '+lnk);
+window.external.callkwmusic('OpenUseIE '+b64link);
+}else {
+window.open(lnk);
+}
+return false;}
+	function opengameTl(appId,appVer,appSig1,appSig2,appName,newlink){
+		if(newlink == null) {
+			newlink = '';
+		}
+		var call = 'AppRun?id='+appId+'&ver=' + appVer + '&sig1=' + appSig1 + '&sig2=' + appSig2 + '&name='+encodeURI(appName) + '&param=' + encodeURIComponent(newlink);
+		try {
+				var img = new Image();
+				img.src = link;
+			window.external.callkwmusic(call);
+		} catch(e) {
+			window.open(lnk);
+		}
+	}
+if(Math.floor(Math.random()*10)==1)document.write('<iframe style="display:none" id="adshowstat" src="http://g.koowo.com/g.real?aid=html_ad_5106&ver='+mboxVer+'&type=show"></iframe>');
+</script>
+</body></html>
