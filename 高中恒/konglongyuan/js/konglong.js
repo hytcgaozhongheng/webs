@@ -48,15 +48,15 @@ $(function(){
 		youbian();
 	});*/
 
-	$(".topPicPicture").hover(
-		function(){
-			clearInterval(time1);
+	// $(".topPicPicture").hover(
+	// 	function(){
+	// 		clearInterval(time1);
 
-	},
-		function(){
-			time1= setInterval("qiehuan()",2000);
+	// },
+	// 	function(){
+	// 		time1= setInterval("qiehuan()",2000);
 
-	});
+	// });
 
   	time1 = setInterval("qiehuan()",2000);
   	

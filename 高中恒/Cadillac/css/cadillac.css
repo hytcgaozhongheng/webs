@@ -1,0 +1,23 @@
+body{background-color: #1c1c1c;}
+#all{width: 100%;height: 100%;background-image: url("images/home-trans.jpg");position: absolute;}
+
+#topmenu{width: 1000px;height: 123px;margin: auto;position: relative;}
+.logo{display: block;position: relative;width: 74px;height: 71px;top: 25px;left: 25px;background-image: url("images/logo.png");}
+.topmenuright{width: 1000px;height: 123px;position: absolute;top: 0;float: right;}
+.topmenu1{display: block;float: right;position: relative;top: 21px;height: 21px;}
+.topmenu1 a{display: block;float: right;margin-right: 20px;}
+.topmenu1 input{display: block;float: right;border-radius: 8px;width: 125px;height: 21px;padding-top: 6px;margin-right: 5px;}
+.topmenu1a1{padding-top: 3px;}
+.topmenu2{width: 877px;float: right;position: absolute;top:62px;left: 123px;}
+.topmenu2 li{width: 109px;height: 60px;float: left;display: block;}
+.topmenu2div{color: rgb(205,205,205);line-height: 60px;text-align: center;font-family: "微软雅黑";}
+.topmenu2xiala{width: 990px;height: 377px;position: relative;top: 0;left: -123px;border: 5px solid rgb(65,65,65);display: none;}
+.topmenu2xialaleft{width: 353px;height: 378px;background-color: red;}
+#middle{width: 1000px;height: 819px;margin: auto;background-color: rgb(65,65,65);}
+.middlepic{width: 990px;height: 436px;margin: auto;overflow: hidden;border: 5px solid rgb(65,65,65);}
+.middlepic ul{display: block;float: left;position: relative;width: 1000000px;}
+.middlepic li{display: block;float: left;}
+.middlebuttom{width: 1000px;height: 9px;text-align: center;margin-top: 10px;}
+.middlebuttom1{width: 9px;height: 9px;background-image: url("images/slider.png");margin-right: 20px;}
+.middlebuttom2{background-image: url("images/slider_ov.png");}
+
