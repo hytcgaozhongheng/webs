@@ -1,0 +1,50 @@
+#topmenu{width: 960px;height:60px;margin: auto; }
+.logo{display: block;float: left;width: 114px;height: 52px;margin-right: 10px;}
+.topmenupic{width: 750px;height: 50px;display: block;float: left;margin-top: 3px;}
+.topmenu{float: left;margin-left: 5px;}
+.topmenu a{font-size: 12px;line-height: 18px;color: rgb(0,0,0);display: block;text-decoration: none;}
+.topmenu a:hover{color: red;}
+
+#middle{width: 960px;height: 470px; margin: auto;}
+.middletitle{width: 960px;height: 32px;margin-bottom: 9px;background-image: url("images/reg_menu_bg.gif"); }
+.middletitle a{font-size: 12px;line-height: 32px;color: rgb(255,255,255);display: block;text-decoration: none;}
+.middletitle a:hover{color: rgb(255,199,0);}
+.middletitleleft{float: left;margin-left: 10px}
+.middletitleright{float: right;margin-right: 20px;}
+.middletitle div{float: right;background-image: url("images/reg_menu_li_rbg.gif");width: 20px;height: 32px;background-repeat: no-repeat;}
+.middlecontent{width: 960px;height: 429px;border-bottom:  1px solid #ccc;}
+.middlecontentleft{width:653px;height: 428px;border: 1px solid #ccc;float: left;margin-right: 3px; }
+.middlecontentright{width: 300px;height: 387px;border: 1px solid #ccc;float: left;border-top: 0;}
+.middlecontentlefttitle{width: 618px;height: 25px;margin: auto;padding-top: 36px;border-bottom: 1px solid #ccc;}
+.middlecontentlefttitle span{font-size: 14px;color: red;font-weight: bolder;float: left;margin-right: 5px;}
+.middlecontentlefttitle p1{font-size: 12px;color: red;float: left;line-height: 18px;}
+.middlecontentlefttitle p2{font-size: 12px;color: rgb(125,125,125);float: left;line-height: 18px;}
+.middlecontentlefttitle p3{font-size: 12px;color: rgb(125,125,125);float: right;line-height: 18px;}
+.middlecontentlefttitle a{display: block;float: right;font-size: 12px;text-decoration: none;line-height: 18px;color: rgb(100,0,0);font-weight: bolder;margin-left: 3px;}
+.middlecontentlefttitle a:hover{color: red;}
+.middlecontentleftcontent{width: 651px;height: 349px;padding-top: 20px;}
+.middlecontentleftcontent ul{display: block;height: 270px;width: 651px;}
+.middlecontentleftcontent li{display: block;float: left;width: 601px;height: 45px;padding-left: 50px;}
+.middlecontentleftcontent span{font-size: 12px;width: 60px;height: 45px;line-height: 30px;text-align: right;display: block;float: left;}
+.middlecontentleftcontentinput1{border:1px solid rgb(138,0,0);height: 30px;width: 200px;margin-left: 5px;}
+.middlecontentleftcontentinput2{border:1px solid rgb(138,0,0);height: 30px;width: 80px;margin-left: 5px;float: left;}
+.middlecontentleftcontent p1{font-size: 12px;color: red;line-height: 18px;}
+.middlecontentleftcontent p2{font-size: 12px;color: rgb(125,125,125);line-height: 18px;}
+
+.middlecontentleftcontentdiv{width: 80px;height: 30px;background-image: url("images/1.png");float: left;margin-left: 10px;}
+.middlecontentleftcontenta{display: block;color: rgb(138,0,0);float: left;font-size: 14px;line-height: 30px;text-decoration: none;}
+.middlecontentleftcontenta:hover{text-decoration: underline;}
+.middlecontentleftcontent p3{font-size: 12px;color: red;line-height: 30px;}
+
+.xieyi{width: 540px;height: 30px;margin-left: 108px;}
+.buttom{background-image: url("images/dj2.png");width: 17px;height: 17px;float: left;border: 1px solid #ccc;}
+.xieyi p{font-size: 12px;color: rgb(0,0,0);line-height: 18px;float: left;}
+.xieyi a{float: left;color: rgb(138,0,0);display: block;font-size: 14px;line-height: 18px;text-decoration: none;}
+.xieyi a:hover{color: red;}
+#qrbuttom{background-image: url("images/reg_submit.gif");width: 115px;height: 34px;margin-left: 200px;}
+
+.middlecontentrighttitle{width: 300px;height: 23px;background-image: url("images/reg_right_bg.png");padding-top: 5px;}
+.middlecontentrighttitle span{ font-size: 14px;color: #7d7d7d;font-weight: bold;margin-left: 10px;background-image: url("images/reg_member_ico.png");background-repeat: no-repeat;padding-left: 16px;}
+.middlecontentrighttitle a{float: right;display: block;font-size: 14px;text-decoration: none;color: rgb(0,0,0);}
+.middlecontentrighttitle a:hover{color: red;}
+
