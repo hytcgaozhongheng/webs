@@ -1,7 +1,8 @@
-#top{width: 1000px;height: 200px;border: 1px solid #ccc;margin: auto;}
+body{background-image: url("images/u=1336161971,2846421394&fm=23&gp=0.jpg");background-position: center; top;}
+#top{width: 1000px;height: 200px;margin: auto;}
 .fanhui{width: 90;height: 80px;float: left;margin-left: 5px;}
-#searchContent{width: 1000px;height: 800px;border: 1px solid #ccc;margin: auto}
-.searchContentNormal{width: 200px;height: 100px;border: 1px solid #ccc;float: left;margin-left: 24px;px;margin-right: 24px;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;}
+#searchContent{width: 1000px;height: 800px;margin: auto}
+.searchContentNormal{width: 200px;height: 100px;float: left;margin-left: 24px;px;margin-right: 24px;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;}
 .searchContentNormalA{width: 200px;height: 100px;}
 .searchContentNormalALeft{width: 130px;height:90px; ;margin-left: 5px;margin-right: 5px;margin-top: 5px;margin-bottom: 5px;float: left;}
 .searchContentNormalALeft img{width: 130px;height: 90px;}
@@ -9,8 +10,8 @@
 .searchContentNormalARight a{font-size: 14px;text-align: center;line-height: 50px;color: rgb(0,0,0);text-decoration: none;}
 .searchContentNormalARight a:hover{color: red;text-decoration: underline;}
 .Time{width: 200px;height: 200px;float: right;}
-.TimeUp{width: 200px;height: 100px;border: 1px solid #ccc;float: right;}
-.TimeDown{width: 200px;height: 100px;border: 1px solid #ccc;float: right;}
+.TimeUp{width: 200px;height: 100px;float: right;}
+.TimeDown{width: 200px;height: 100px;float: right;}
 .TimeUpyear{width: 140px;height: 25px; margin-left: 30px;margin-right: 30px;margin-top: 5px;margin-bottom: 5px;}
 .TimeUpyearA{width: 25px;height: 25px;margin-left: 5px;margin-right: 5px;float: left;background-image: url("images/time.png");}
 .TimeUpMonth{width: 105px;height: 25px;margin: auto;margin-top: 5px;margin-bottom: 5px;}
