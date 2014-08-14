@@ -47,4 +47,15 @@
 .middlecontentrighttitle span{ font-size: 14px;color: #7d7d7d;font-weight: bold;margin-left: 10px;background-image: url("images/reg_member_ico.png");background-repeat: no-repeat;padding-left: 16px;}
 .middlecontentrighttitle a{float: right;display: block;font-size: 14px;text-decoration: none;color: rgb(0,0,0);}
 .middlecontentrighttitle a:hover{color: red;}
+.middlecontentrightcontent{width: 260px;padding: 10 20 0 20;}
+.middlecontentrightcontent li{width: 260px;height: 86px;display: block;}
+.middlecontentrightcontent span{color: rgb(255,255,255);font-size: 12px;line-height: 24px; width: 255px;height: 24px;display: block;background-image:url("images/reg_right_bg.png");background-position: 0 -31px;background-repeat: no-repeat; padding-left: 5px;}
+.middlecontentrightcontent p{font-size: 12px;color: #7d7d7d;line-height: 25px;}
+.middlecontentrightcontent a{color: #640000;text-decoration: none;}
+.middlecontentrightcontent a:hover{color: red;}
 
+#footer{width: 960px;height: 50px;padding: 15px 0 15px 0;margin-top: 15px;margin-bottom: 15px;margin: auto;}
+#footer li{text-align: center;display: block;margin-bottom: 5px;margin-top: 15px;}
+#footer a{font-size: 12px;text-decoration: none;color: rgb(1,63,124);}
+#footer a:hover{text-decoration: underline;}
+#footer span{font-size: 13px;}
