@@ -142,7 +142,7 @@
 .contentallleft5{width: 168px;height: 255px;background-color:rgb(248,246,242);border: 1px solid #ccc;margin-top: 10px;}
 .contentallleft6{width: 168px;height: 286px;background-color:rgb(248,246,242);border: 1px solid #ccc;margin-top: 10px;}
 
-.contentallcontent1{width: 534px;height: 109px;background-color:rgb(248,246,242);border: 1px solid #ccc;}
+.contentallcontent1{width: 534px;height: auto;;background-color:rgb(248,246,242);border: 1px solid #ccc;}
 .contentallcontent2{width: 534px;height: 56px;background-color:rgb(248,246,242);border: 1px solid #ccc;margin-top: 10px;}
 .contentallcontent3{width: 534px;height: 43px;background-color:rgb(248,246,242);border: 1px solid #ccc;margin-top: 10px;}
 .contentallcontent4{width: 534px;height: auto;background-color:rgb(248,246,242);border: 1px solid #ccc;margin-bottom: 10px;}
@@ -283,6 +283,34 @@
 .p162all2bqka1{margin-top: 5px;margin-left: 10px; width: 16px;height: 16px;display: block;float: left;background-image: url("images/102.32-jan140811165800.png");background-position: -340px 0; }
 .p162all2bqka2{margin-top: 5px;margin-left: 10px; width: 16px;height: 16px;display: block;float: left;background-image: url("images/102.32-jan140811165800.png");background-position: -465px -100px; }
 .p162all2bqk3{float: right;width: 77px;height: 30px;background-color: #bfb086;text-align: center;line-height: 30px;margin-right: 10px;color: rgb(255,255,255);font-family: punctuation,\5FAE\8F6F\96C5\9ED1;}
+
+.p162all2bqk1{width: 512px;height: 38px;display: none;}
+.p162all2bqka11{margin-top: 5px;margin-left: 10px; width: 16px;height: 16px;display: block;float: left;background-image: url("images/102.32-jan140811165800.png");background-position: -340px 0; }
+.p162all2bqka21{margin-top: 5px;margin-left: 10px; width: 16px;height: 16px;display: block;float: left;background-image: url("images/102.32-jan140811165800.png");background-position: -465px -100px; }
+.p162all2bqk31{float: right;width: 77px;height: 30px;background-color: #bfb086;text-align: center;line-height: 30px;margin-right: 10px;color: rgb(255,255,255);font-family: punctuation,\5FAE\8F6F\96C5\9ED1;}
+
+.topallright{width: 387px;height: 41px;float: right;}
+.topallrightdiv{width: 50px;height: 20px;margin-top: 11px;float: left;background-color: rgb(191,171,134);margin-right: 10px;}
+.topallrightdivleft{width: 20px;height: 20px;border-right: 1px solid rgb(166,146,108);float: left;}
+.topallrightdiva{display: block;margin-top: 2px;margin-left: 2px; width: 16px;height: 16px;float: left;background-image:url("images/102.32-jan140811165800.png");background-position: -765px 0; float: left;}
+.topallrightdivdiv{width: 15px;height: 10px;background-image: url("images/102-music-sonic.gif");float: left;margin-top: 5px;margin-left: 5px;}
+.topallright textarea{width: 135px;height: 20px;margin-top: 11px;float: left;}
+.topallrightperson{width: 82px;height: 41px;display: block;float: left;margin-left: 5px;text-decoration: none;line-height: 40px;color: rgb(255,255,255);}
+.topallrightperson:hover{background-color: rgb(191,171,134);}
+.topallrightpersona{width: 25px;height: 25px;float: left;}
+.topallrightperson img{width: 26px;height: 26px;margin-top: 5px;margin-right: 10px;}
+.topallrightperson span{font-size: 12px;text-decoration: none;line-height: 40px;}
+.topallrightperson1{width: 26px;height: 41px;display: block;float: left;}
+.topallrightperson1div{background-image: url("images/102.32-jan140811165800.png");background-position: -765px -75px;width: 16px;height: 16px;margin-top: 12px;margin-left: 5px;}
+.topallrightperson1:hover{background-color: rgb(191,171,134);}
+.topallrightperson2{width: 26px;height: 41px;display: block;float: left;margin-left: 5px;text-decoration: none;line-height: 40px;color: rgb(255,255,255);}
+.topallrightperson2div{width: 16px;height: 16px;margin-top: 12px;margin-left: 5px;background-image:  url("images/102.32-jan140811165800.png");background-position: -765px -100px;}
+.topallrightperson2:hover{background-color: rgb(191,171,134);}
+.topallrightperson3{width: 26px;height: 41px;display: block;float: left;margin-left: 5px;text-decoration: none;line-height: 40px;color: rgb(255,255,255);}
+.topallrightperson3div{width: 22px;height: 19px;margin-top: 11px;margin-left: 2px;background-image:  url("images/qzone-vip.gif");}
+.topallrightperson3:hover{background-color: rgb(255,255,255);}
+
+
 #footer{width: 100%;height: 100px;text-align: center;}
 #footer p17{font-size: 12px;display: block;margin-bottom: 10px;}
 #footer p17 a{color: #403e3b;text-decoration: none;}

@@ -41,6 +41,11 @@ $(function(){
 		n=0;
 		bianhuan(m);
 	});
+
+	$(".contentallcontent1left textarea").click(function(){
+		var x= $(this).parent().parent().next();
+		bianhuan2(x);
+	});
 });
 	 var n=1;
 	 function bianhuan(m){
@@ -63,6 +68,30 @@ $(function(){
 	 	if (n>1) 
 	 	{
 	 		n=0;
+	 	};
+	 }
+
+	 var y=1;
+	 function bianhuan2(x){
+
+	 	if (y==1) 
+	 	{
+	 	 	
+			x.show();
+	 	};
+
+	 	if (y==0) 
+	 	{
+	 	 	
+	  		x.hide();
+	 	};
+		 
+	 	
+
+	 	y++;
+	 	if (y>1) 
+	 	{
+	 		y=0;
 	 	};
 	 }
 	 // var index=1;
