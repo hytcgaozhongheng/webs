@@ -19,4 +19,63 @@ $(function(){
 		$(this).find(".topallli2").find(".p5").css({"background-position":"-734px -150px","background-image":"images/102.32-jan140811165800.png"});
 		$(this).find(".topallli2div1").hide();
 	});
+	$(".p161a1").click(function(){
+		var m= $(this).parent().next().find(".p162all");
+		// $(this).parent().next().find(".p162all2").show();
+		bianhuan(m);
+	});
+	$(".p162buttom1").click(function(){
+		var m= $(this).parent();
+		bianhuan(m);
+	});
+	$(".p162buttom2").click(function(){
+		var m= $(this).parent();
+		bianhuan(m);
+	});
+	$(".p162all textarea").click(function(){
+		var m= $(this).parent();
+		bianhuan(m);
+	});
+	$(".p162all2 textarea").click(function(){
+		var m= $(this).parent().parent().prev();
+		n=0;
+		bianhuan(m);
+	});
 });
+	 var n=1;
+	 function bianhuan(m){
+
+	 	if (n==1) 
+	 	{
+	 	 	m.hide();
+			m.next().show();
+	 	};
+
+	 	if (n==0) 
+	 	{
+	 	 	m.show();
+	  		m.next().hide();
+	 	};
+		 
+	 	
+
+	 	n++;
+	 	if (n>1) 
+	 	{
+	 		n=0;
+	 	};
+	 }
+	 // var index=1;
+	 // function move(){
+	 // 	$(".middlebuttom1").parent().find(".middlebuttom1").removeClass("middlebuttom2");
+		// $("#middlebuttom" + index).addClass("middlebuttom2");
+		// var m=index * 990;
+	 // 	// $(".middlepic ul").css("left","-"+ m +"px");
+	 // 	$(".middlepic ul").animate({"left": "-"+ m +"px"},"slow");
+
+	 // 	index++;
+	 // 	if(index>3)
+	 // 	{
+	 // 		index=0;
+	 // 	}
+	 // }
