@@ -1,0 +1,78 @@
+
+
+body{background-image: url("images/26.jpg");}
+#qq{width: 300px;height: 100%;margin-left: 200px;}
+#person{width: 100%;height: 87px;padding-bottom: 3px;}
+.personli1{width: 280px;height: 70px;float: left;margin-left: 20px;}
+.personli1a{width: 70px;height: 100%;float: left;display: block;margin-top: 10px;}
+.personli1a img{width: 50px;height: 50px;}
+.personulspan{width: 200px;height: 100%;float: left;display: block;}
+.personulspana{width:100%;height: 40px;float: left;display:block;font-size: 16px;line-height: 40px;}
+
+
+.personli2{width: 280px;height: 15px;float: left;margin-top: 2px;margin-left: 20px;}
+
+.personli2a1{width: 15px;height: 15px;margin-right: 8px;background-image: url("images/icons_list.png");background-position: 0 0;display: block;float: left;}
+.personli2a2{width: 15px;height: 15px;margin-right: 8px;background-image: url("images/icons_list.png");background-position: -20 0;display: block;float: left;}
+.personli2a3{width: 15px;height: 15px;margin-right: 8px;background-image: url("images/icons_list.png");background-position: -40 0;display: block;float: left;}
+.personli2a4{width: 15px;height: 15px;margin-right: 8px;background-image: url("images/icons_list.png");background-position: -60 0;display: block;float: left;}
+.personli2a5{width: 15px;height: 15px;margin-right: 8px;background-image: url("images/icons_list.png");background-position: -81 0;display: block;float: left;}
+.personli2a6{width: 15px;height: 15px;margin-right: 8px;background-image: url("images/icons_list.png");background-position: -103px -1px;display: block;float: left;}
+.personli2a7{width: 15px;height: 15px;margin-right: 8px;background-image: url("images/icons_list.png");background-position: -124 0;display: block;float: left;}
+.personli2a8{width: 15px;height: 15px;margin-right: 8px;background-image: url("images/icons_list.png");background-position: -144 0;display: block;float: left;}
+.personli2a9{width: 15px;height: 15px;margin-right: 8px;background-image: url("images/icons_list.png");background-position: -166 0;display: block;float: left;}
+
+#qqmiddle{width: 100%;height: 500px;border-radius: 5px;}
+.qqmiddlehuihua{width: 100%;height: 450px;display: none;}
+.qqmiddlelianxiren{width: 100%;height: 450px;}
+#listbuttom{width: 100%;height: 40px;background-color: rgb(255,255,255);}
+.buttom{ width: 33.33%;height: 40px;float: left;border-bottom: 2px solid #ccc;cursor: pointer;box-shadow: 10px 0 0 -9px #ccc;text-align: center;line-height: 40px;font-family: '微软雅黑','Helvetica Neue',Helvetica,Arial,sans-serif;}
+.friendlist{width: 100%;height: 370px;overflow: scroll;}
+.friend{width: 100%;height:60px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+.friendpic{width: 50px;height: 50px;padding: 5 15 5 15;float: left;}
+
+.friendpic img{width: 50px;height: 50px;}
+.friendxx{width: 200px;height: 60px;float: left;}
+.friendxx span{display: block;}
+.friendxxspan1{font-size: 16px;margin-top: 5px;}
+.friendxxspan2{margin-top: 10px;}
+
+.grouplist{width: 100%;height: 370px;overflow: scroll;display: none}
+.taolunlist{width: 100%;height: 370px;;overflow: scroll;display: none;}
+
+
+
+.qqmiddlefaxian{width: 100%;height: 450px;display: none;}
+.qqmiddleshezhi{width: 100%;height: 450px;display: none;}
+
+.qqmiddletop{width: 100%;height: 50px;background-color: rgb(68,68,68);border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.qqmiddletoptitle{width: 140px;text-align: center;height: 50px;margin: auto;line-height: 50px;font-size: 20px;color: rgb(255,255,255);}
+.qqmiddlemiddle{width: 100%;height: 400px;background-color: rgb(255,255,255);}
+
+.qqmiddlebuttom{width: 100%;height: 50px;background-color: rgb(63,63,63);border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;z-index: 100000;}
+.qqmiddlebuttomnum{text-align: center;line-height: 10px; width: 25%;height: 50px;float: left;color: #ccc;text-shadow: 0 -1px 0 #000;box-shadow: 10px 0 0 -9px #ccc;}
+.qqmiddlebuttomnumspecial{text-align: center;width: 25%;height: 50px;float: left;color: #ccc;text-shadow: 0 -1px 0 #000;}
+.qqmiddlebuttomnum1{width: 35px;height: 35px;background-image: url("images/tab_icon_conversation.png");background-size: 35px; height: 35px;margin-left: 20px;}
+.qqmiddlebuttomnum2{width: 35px;height: 35px;background-image: url("images/tab_icon_contact.png");background-size: 35px; height: 35px;margin-left: 20px;}
+.qqmiddlebuttomnum3{width: 35px;height: 35px;background-image: url("images/tab_icon_plugin.png");background-size: 35px; height: 35px;margin-left: 20px;}
+.qqmiddlebuttomnum4{width: 35px;height: 35px;background-image: url("images/tab_icon_setup.png");background-size: 35px; height: 35px;margin-left: 20px;}
+
+.qqmiddlebuttomnum span{color: rgb(235,235,235);}
+.qqmiddlebuttomnumspecial span{color: rgb(235,235,235);}
+/*
+
+
+font-size: 14px;
+text-align: center;
+*/
+
+
+
+#footer{width: 100%;height: 30px;padding-top: 20px;}
+.footerbuttom1{width: 19px;height: 19px;display: block;float: left;margin-left: 15px;background-image: url("images/arrow.png");background-position: -2px -2px;}
+.footerbuttom1:hover{background-position: -3px -42px;}
+.footerbuttom2{width: 19px;height: 19px;display: block;float: left;margin-left: 15px;background-image: url("images/arrow.png");background-position: -25px -2px;}
+.footerbuttom2:hover{background-position: -26px -42px;}
+.footerbuttom3{width: 80px;height: 19px;display: block;border-radius: 10px;background-color: rgb(0,0,0);color: rgb(255,255,255);float: left;text-align: center;margin-left: 50px;line-height: 19px;font-size: 12px;}
+
+
