@@ -36,11 +36,11 @@ $(function(){
 		var m= $(this).parent();
 		bianhuan(m);
 	});
-	$(".p162all2 textarea").click(function(){
-		var m= $(this).parent().parent().prev();
-		n=0;
-		bianhuan(m);
-	});
+	 // $(".p162all2 textarea").click(function(){
+	 // 	var m= $(this).parent().parent().prev();
+	 // 	n=0;
+	 // 	bianhuan(m);
+	 // });
 
 	$(".contentallcontent1left textarea").click(function(){
 		var x= $(this).parent().parent().next();
