@@ -60,6 +60,50 @@
   	  	$(this).parent().find(".qqmiddlebuttomnum2").css("background-image",'url("css/images/tab_icon_contact.png")')
   	  	$(this).parent().find(".qqmiddlebuttomnum3").css("background-image",'url("css/images/tab_icon_plugin.png")')
   	 });
+
+
+       $(".friend").click(function(){
+    var friendID = $(this).attr("friendID");
+    var chatDivID = "chat" + friendID;
+    if ($(this).attr("isOpen") == "true") {
+      //将已经打开的窗口置顶
+      $(".qqChat").css("z-index","15");
+      $("#" + chatDivID).css("z-index","16");
+      return;
+    }
+    $(this).attr("isOpen","true");
+    
+    var friendName = $(this).attr("friendName");
+    var html ="";
+    html += '   <div id="' + chatDivID + '" class="Chat">';
+    html += '     <div class="chatTitle">';
+    html += '       <div class="chattitle1"><div class="chattitle1div"><div class="chattitle1divxiala"></div></div></div>';
+    html += '       <div class="chatperson">' + friendName +'</div>';
+    html += '       <div friendID = "friend'+friendID+'" chatDivID="' + chatDivID + '" class="chattitle3"><div class="chattitle3div"><span class="chattitle3divspan">关闭</span></div></div>';
+    html += '     </div>';
+    html += '     <div class="chatHistory"></div>';
+    html += '     <div class="chatControl"></div>';
+    html += '   </div>';
+
+      
+      
+
+
+        <div class="chatcontent"></div>
+    <div class="chatshuru">
+      <div class="chatshurubq">
+        <div class="chatshurubqpic"></div>
+      </div>
+      <textarea class="chatshuruchatkuang"></textarea>
+      <div class="chatshuruchatsend">
+        <span class="chatshuruchatsendbuttom">发送</span>
+      </div>
+    </div>
+  </div>
+
+
+    $("body").append(html);
+
  });
 
 

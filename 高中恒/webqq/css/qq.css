@@ -28,14 +28,26 @@ body{background-image: url("images/26.jpg");}
 #listbuttom{width: 100%;height: 40px;background-color: rgb(255,255,255);}
 .buttom{ width: 33.33%;height: 40px;float: left;border-bottom: 2px solid #ccc;cursor: pointer;box-shadow: 10px 0 0 -9px #ccc;text-align: center;line-height: 40px;font-family: '微软雅黑','Helvetica Neue',Helvetica,Arial,sans-serif;}
 .friendlist{width: 100%;height: 370px;overflow: scroll;}
+.huihualist{width: 100%;height: 410px;overflow: scroll;}
+.faxianlist{width: 100%;height: 99px;background-color:  #dadbe0;}
+.faxian1{width: 99px;height: 99px;border-right: 1px solid #ccc;float: left;border-bottom:1px solid #ccc;text-align: center;cursor: pointer;}
+.faxian1pic{width: 59px;height: 59px;margin-left: 20px;margin-top: 20px;background-image: url("images/plugin_icon_qzone (1).jpg");background-size: 59px 59px;}
+.faxian2{width: 99px;height: 99px;border-right: 1px solid #ccc;float: left;border-bottom:1px solid #ccc;text-align: center;cursor: pointer;}
+.faxian2pic{width: 59px;height: 59px;margin-left: 20px;margin-top: 20px;background-image: url("images/plugin_icon_qmail.jpg");background-size: 59px 59px;}
+.faxian3{width: 99px;height: 100px;float: left;border-bottom:1px solid #ccc;text-align: center;cursor: pointer;}
+.faxian3pic{width: 59px;height: 59px;margin-left: 20px;margin-top: 20px;background-image: url("images/plugin_icon_qq_portal.png");background-size: 59px 59px;}
+.faxian1 span{text-align: center;}
+
 .friend{width: 100%;height:60px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
 .friendpic{width: 50px;height: 50px;padding: 5 15 5 15;float: left;}
-
 .friendpic img{width: 50px;height: 50px;}
 .friendxx{width: 200px;height: 60px;float: left;}
 .friendxx span{display: block;}
 .friendxxspan1{font-size: 16px;margin-top: 5px;}
 .friendxxspan2{margin-top: 10px;}
+
+
+
 
 .grouplist{width: 100%;height: 370px;overflow: scroll;display: none}
 .taolunlist{width: 100%;height: 370px;;overflow: scroll;display: none;}
@@ -44,6 +56,29 @@ body{background-image: url("images/26.jpg");}
 
 .qqmiddlefaxian{width: 100%;height: 450px;display: none;}
 .qqmiddleshezhi{width: 100%;height: 450px;display: none;}
+.shezhilist{width: 280px;height: 390px;padding:10 10 0 10;}
+.shezhilist1{width: 280px;height: 80px;border: 1px solid #ccc;border-radius: 5px;}
+.shezhilist1a{width: 50px;height: 50px;float: left;display: block;padding: 15 15 15 15}
+.shezhilist1span{width: 150px;height: 80px;float: left;}
+.shezhilist1spana{font-size: 16px;line-height: 40px;width: 100%;height: 40px;display: block;}
+.shezhilist1span span{font-size: 14px;color: rgb(145,145,145);}
+.shezhilist1div{width: 50px;height: 45px;float: left;padding-top: 35px;}
+.shezhilist1div1{display: block;width: 10px;height: 10px;float: left;background-image: url("images/state_sprite.gif");background-position: 0 0;cursor: pointer;}
+.shezhilist1div2{display: block;width: 10px;height: 10px;float: left;margin-left: 10px;background-image: url("images/state_sprite.gif");background-position: -162px 4px;cursor: pointer;}
+.shezhilist2{width: 250px;height: 60px;border: 1px solid #ccc;border-radius: 5px;margin-top: 15px;padding: 15 15 15 15;cursor: pointer;}
+.shezhilist2span1{font-size:16px; margin-right: 5px;line-height: 20px;color: rgb(165,165,165);}
+.shezhilist2span2{font-size: 16px;line-height: 20px;}
+.shezhilist3{width: 280px;height: 40px;border: 1px solid #ccc;border-radius: 5px;margin-top: 15px;cursor: pointer;}
+.shezhilist3div{width: 100%;height: 100%;}
+.shezhilist3divspan1{width: 180px;height: 40px;line-height: 40px;font-size: 16px;padding-left: 20px;display: block;float: left;}
+.shezhilist3divspan2{width: 16px;height: 20px;display: block;float: left;background-image: url("images/open_arrow.png");margin-top: 10px;margin-left: 50px;}
+.shezhilist4{width: 280px;height: 40px;border: 1px solid #ccc;border-radius: 5px;margin-top: 15px;cursor: pointer;}
+.shezhilist4div{width: 100%;height: 100%;}
+.shezhilist4divspan1{width: 180px;height: 40px;line-height: 40px;font-size: 16px;padding-left: 20px;display: block;float: left;}
+.shezhilist4divspan2{width: 16px;height: 20px;display: block;float: left;background-image: url("images/open_arrow.png");margin-top: 10px;margin-left: 50px;}
+.shezhilist5{width: 280px;height: 40px;border: 1px solid #ccc;border-radius: 5px;margin-top: 15px;cursor: pointer;}
+.shezhilist5div{width: 100%;height: 100%;background-color: red;text-align: center;border-radius: 5px;}
+.shezhilist5divspan{color: rgb(255,255,255);font-size: 16px;line-height: 40px;}
 
 .qqmiddletop{width: 100%;height: 50px;background-color: rgb(68,68,68);border-top-left-radius: 5px;border-top-right-radius: 5px;}
 .qqmiddletoptitle{width: 140px;text-align: center;height: 50px;margin: auto;line-height: 50px;font-size: 20px;color: rgb(255,255,255);}
@@ -74,5 +109,25 @@ text-align: center;
 .footerbuttom2{width: 19px;height: 19px;display: block;float: left;margin-left: 15px;background-image: url("images/arrow.png");background-position: -25px -2px;}
 .footerbuttom2:hover{background-position: -26px -42px;}
 .footerbuttom3{width: 80px;height: 19px;display: block;border-radius: 10px;background-color: rgb(0,0,0);color: rgb(255,255,255);float: left;text-align: center;margin-left: 50px;line-height: 19px;font-size: 12px;}
+
+
+#chat{width: 700px;height: 450px;border: 1px solid rgb(57,57,57); border-radius: 8px;position: absolute;top: 100px;left: 550px;}
+#chattitle{width: 700px;height: 50px;border-top-left-radius: 8px;border-top-right-radius: 8px;background-color: rgb(57,57,57);float: left;opacity:1;}
+.chattitle1{width: 100px;height: 50px;float: left;}
+.chattitle1div{width: 60px;height: 30px;border-radius: 5px;border: 1px solid rgb(0,0,0);margin-left: 25px;margin-top: 10px;cursor: pointer;}
+.chattitle1divxiala{width: 14px;height: 14px;background-image: url("images/pannel-arrow-down.png");background-size: 14 14;margin-top: 8px;margin-left: 8px;}
+.chatperson{width: 500px;text-align: center;line-height: 50px;color: rgb(255,255,255);float: left;font-size: 20px;}
+.chattitle3{width: 100px;height: 50px;float: left;}
+.chattitle3divspan{width: 60px;height: 30px;border-radius: 5px;border: 1px solid rgb(0,0,0);margin-left: 25px;margin-top: 10px;cursor: pointer;display: block;text-align: center;line-height: 30px;color: rgb(255,255,255);font-size: 14px;}
+
+#chatcontent{width: 700px;height: 350px;float: left;background-color: rgb(57,57,57);opacity:0.7;}
+#chatshuru{width: 700px;height: 50px;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;background-color: rgb(57,57,57);float: left;opacity:1;}
+
+/*.chattitle1divxialacontent{width: 700px;height: 50px;position: absolute;top: 50px;background-color: red;z-index: 1000px;opacity: 5;}*/
+.chatshurubq{width: 80px;height: 50px;float: left;}
+.chatshurubqpic{width: 30px;height: 30px;cursor: pointer;background-image: url("images/chat_bottombar_icon_face.png");background-size: 30 30;margin-left: 20px;margin-top: 10px;}
+.chatshuruchatkuang{width: 550px;height: 30px;margin-top: 10px;border-radius: 5px;float: left;line-height: 25px;}
+.chatshuruchatsend{width: 70px;height: 30px;margin-top: 9px;float: left;}
+.chatshuruchatsendbuttom{cursor: pointer; width: 50px;height: 30px;border-radius: 5px;background-color: rgb(64,116,165);margin-left: 9px;display: block;text-align: center;line-height: 30px;color: rgb(255,255,255);font-size: 14px;border: 1px solid rgb(0,0,0);}
 
 
