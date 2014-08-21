@@ -1,6 +1,6 @@
 
 
-body{background-image: url("images/26.jpg");}
+#webqqall{width: 100%;height: 100%; background-image: url("images/1.jpg");}
 #qq{width: 300px;height: 100%;margin-left: 200px;}
 #person{width: 100%;height: 87px;padding-bottom: 3px;}
 .personli1{width: 280px;height: 70px;float: left;margin-left: 20px;}
@@ -38,7 +38,7 @@ body{background-image: url("images/26.jpg");}
 .faxian3pic{width: 59px;height: 59px;margin-left: 20px;margin-top: 20px;background-image: url("images/plugin_icon_qq_portal.png");background-size: 59px 59px;}
 .faxian1 span{text-align: center;}
 
-.friend{width: 100%;height:60px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+.friend{width: 100%;height:60px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;cursor: pointer;}
 .friendpic{width: 50px;height: 50px;padding: 5 15 5 15;float: left;}
 .friendpic img{width: 50px;height: 50px;}
 .friendxx{width: 200px;height: 60px;float: left;}
@@ -104,15 +104,15 @@ text-align: center;
 
 
 #footer{width: 100%;height: 30px;padding-top: 20px;}
-.footerbuttom1{width: 19px;height: 19px;display: block;float: left;margin-left: 15px;background-image: url("images/arrow.png");background-position: -2px -2px;}
+.footerbuttom1{cursor: pointer; width: 19px;height: 19px;display: block;float: left;margin-left: 15px;background-image: url("images/arrow.png");background-position: -2px -2px;}
 .footerbuttom1:hover{background-position: -3px -42px;}
-.footerbuttom2{width: 19px;height: 19px;display: block;float: left;margin-left: 15px;background-image: url("images/arrow.png");background-position: -25px -2px;}
+.footerbuttom2{cursor: pointer; width: 19px;height: 19px;display: block;float: left;margin-left: 15px;background-image: url("images/arrow.png");background-position: -25px -2px;}
 .footerbuttom2:hover{background-position: -26px -42px;}
 .footerbuttom3{width: 80px;height: 19px;display: block;border-radius: 10px;background-color: rgb(0,0,0);color: rgb(255,255,255);float: left;text-align: center;margin-left: 50px;line-height: 19px;font-size: 12px;}
 
 
-#chat{width: 700px;height: 450px;border: 1px solid rgb(57,57,57); border-radius: 8px;position: absolute;top: 100px;left: 550px;}
-#chattitle{width: 700px;height: 50px;border-top-left-radius: 8px;border-top-right-radius: 8px;background-color: rgb(57,57,57);float: left;opacity:1;}
+.chat{width: 700px;height: 450px;border: 1px solid rgb(57,57,57); border-radius: 8px;position: absolute;top: 100px;left: 550px;}
+.chattitle{width: 700px;height: 50px;border-top-left-radius: 8px;border-top-right-radius: 8px;background-color: rgb(57,57,57);float: left;opacity:1;}
 .chattitle1{width: 100px;height: 50px;float: left;}
 .chattitle1div{width: 60px;height: 30px;border-radius: 5px;border: 1px solid rgb(0,0,0);margin-left: 25px;margin-top: 10px;cursor: pointer;}
 .chattitle1divxiala{width: 14px;height: 14px;background-image: url("images/pannel-arrow-down.png");background-size: 14 14;margin-top: 8px;margin-left: 8px;}
@@ -120,8 +120,15 @@ text-align: center;
 .chattitle3{width: 100px;height: 50px;float: left;}
 .chattitle3divspan{width: 60px;height: 30px;border-radius: 5px;border: 1px solid rgb(0,0,0);margin-left: 25px;margin-top: 10px;cursor: pointer;display: block;text-align: center;line-height: 30px;color: rgb(255,255,255);font-size: 14px;}
 
-#chatcontent{width: 700px;height: 350px;float: left;background-color: rgb(57,57,57);opacity:0.7;}
-#chatshuru{width: 700px;height: 50px;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;background-color: rgb(57,57,57);float: left;opacity:1;}
+.chatcontent{width: 700px;height: 350px;float: left;background-color: rgb(57,57,57);opacity:0.7;overflow: scroll;}
+.chatDesContentA{ width: 680px; min-height: 66px; height: auto; float: right;padding:10px;}
+.cDAHeader{width: 40px; height: 40px; background-image: url("../images/g.jpg");float: right;margin-left: 10px;}
+.cDALeft{width: 600px; float: right;}
+.cDAMyNicName{display: block; font-size: 14px; height: 14px;width: 600px;color: #222; text-align: right;text-shadow:1px 1px 1px #fff;}
+.cDAMyWords{background: linear-gradient(#FFF, #E1E1E1) repeat scroll 0% 0% #FFF;max-width: 350px; padding: 10px 15px; margin-top: 10px; display: inline-block;float: right;font-size: 16px;line-height: 22px; border-radius: 6px;border: 1px solid #E1E1E1;box-shadow: 1px 1px 3px rgba(0,0,0,0.7) }
+
+
+.chatshuru{width: 700px;height: 50px;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;background-color: rgb(57,57,57);float: left;opacity:1;}
 
 /*.chattitle1divxialacontent{width: 700px;height: 50px;position: absolute;top: 50px;background-color: red;z-index: 1000px;opacity: 5;}*/
 .chatshurubq{width: 80px;height: 50px;float: left;}
@@ -130,4 +137,29 @@ text-align: center;
 .chatshuruchatsend{width: 70px;height: 30px;margin-top: 9px;float: left;}
 .chatshuruchatsendbuttom{cursor: pointer; width: 50px;height: 30px;border-radius: 5px;background-color: rgb(64,116,165);margin-left: 9px;display: block;text-align: center;line-height: 30px;color: rgb(255,255,255);font-size: 14px;border: 1px solid rgb(0,0,0);}
 
+.panelNotifySetting{width: 700px;height: 480px;top: 15%;left: 550;position: absolute;z-index: 3;display: none;}
+.panelSetHeader{width: 100%;height: 45px; border-radius: 6px 6px 0 0;position: relative; background-image: -webkit-linear-gradient(rgb(85, 85, 85), rgb(34, 34, 34));}
+.panelSetHeaderButton{  margin: 5px 0 7px 25px;padding: 6px 10px;-webkit-border-radius: 0 5px 5px 0;width: 57px;height: 19px; font-size: 14px;vertical-align: middle;border-color: #2C2727 #2C2727 #1A1919;position: relative;border: 1px solid;float: left;z-index:2;background-image: -webkit-linear-gradient(top, #555, #222);}
+.panelSetHeaderButtonI{display: block; max-width: 100px; width: 100%;font-size: 100%;font-family: 微软雅黑; line-height: 100%;color: #fff;text-align: center;}
+.panelSetHeaderButtonL{cursor: pointer;border: 1px solid;background: -webkit-gradient(linear,left top,right bottom,from(#555),to(#222));display: block;position: absolute;-webkit-transform: rotate(45deg);transform: rotate(45deg);z-index:1;width: 23px;height: 23px;left: 13px;top: 9px;-webkit-border-radius: 3px;border-radius: 3px;-webkit-box-shadow: inset 1px 0 rgba(255, 255, 255, .1),0 1px rgba(255, 255, 255, 0.1);}
+.panelSetHeaderButtonS{border-left-width: 0;cursor: pointer;}
+.panelNotifySet{display: block; width:547px; height: 18px;padding: 13.5px 30px 13.5px 20px;float: left;text-align: center;font-family: 微软雅黑;font-size: 18px;color: #fff;line-height: 18px;font-weight: normal;}
 
+
+.panelNotifySetBody{ position: absolute;left: 0;width: 100%;bottom: 0;top: 45px;overflow: hidden;}
+.panelNotifySetBodyBox{ width: 100%;min-height: 100%;position: relative;background: #EDEDED;border-radius: 0 0 6px 6px;}
+
+
+.panelNSBBgroup{display: inline-block;padding: 10px;width: 100%;box-sizing:border-box;}
+.panelNSBBgroupRow{ line-height: 16px; font-family: 微软雅黑;font-size: 16px; padding: 10px;border-radius: 5px;border: 1px solid #AFC8E2;background-color: #fff;display: inline-block;width: 100%;box-sizing:border-box;}
+.panelNSBBgroupRowU{ border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
+.panelNSBBgroupRowD{ border-top-left-radius: 0;border-top-right-radius: 0; border-top: 0px;}
+
+.panelNSBBgroupC{line-height: 16px; font-family: 微软雅黑;font-size: 16px;color: #666;width: 80px;}
+.switch{display: inline-block;width: 56px;height: 24px;position: relative;float: right;}
+.switch input{background-image: -webkit-linear-gradient(top, #D0D0D0, #DFDFDF);-webkit-appearance: none; margin: 0;width: 100%;height: 100%;-webkit-border-radius: 96px;border-radius: 96px;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: pointer;outline: none;}
+.switch  span{background-image: -webkit-linear-gradient(top, white, #F1F1F1);position: absolute;top: 50%;left: 3em;margin-top: -.7em;width: 1.4em;height: 1.4em;-webkit-border-radius: 1.6em;border-radius: 1.6em;-webkit-transition: left .1s linear;transition: left 0.1s linear;pointer-events: none;}
+.switch input:checked{background-image: -webkit-linear-gradient(#5393C5,#6FACD5);background-image: linear-gradient(#5393C5,#6FACD5);}
+.switch input:checked ~ span{left: 0.21em;}
+.panelNSBBgroupRB{ display: inline-block;width: 100%;}
+.tips{ color: #666;cursor: default;}
