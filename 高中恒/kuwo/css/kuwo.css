@@ -58,7 +58,7 @@
 
 #topPicture{width: 100%;height: 420px;overflow: hidden;display: block;position: relative;}
 #topPicturecontent{width: 1000px;height: 420px;margin: auto;position: relative;overflow: hidden;}
-#topPicturecontent ul{display:block;height: 420px;width:20000px;position: relative;}
+#topPicturecontent ul{display:block;height: 420px;width:20000px;position: relative;left: :0;}
 #topPicturecontent li{display:block;float: left;}
 #topPicturecontent img{width: 1000px;height: 420px;}
 .topPicturecontentleftbuttom{width: 78px;height: 78px;position: absolute;top:50%;z-index: 10000;left: 0;display: block;background-image: url("images/FocusBtn.png");background-position: 0 0;}

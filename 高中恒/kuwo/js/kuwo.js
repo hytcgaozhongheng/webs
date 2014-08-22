@@ -38,11 +38,11 @@ $(function(){
 		});
 	$(".topPicturecontentleftbuttom").click(function(){
 
-		move();
+		move2();
 	});
 
 	$(".topPicturecontentrightbuttom").click(function(){
-		move2();
+		move();
 	});
 	$(".PhbRightDownTitlerightbuttom1").click(function(){
 
@@ -73,7 +73,7 @@ $(function(){
 
 	var m=9;
 	function move2(){
-	
+		
 		index=m*1000;
 		$("#topPicturecontent ul").animate({"left": "-"+ index +"px"},"slow");
 		m--;
