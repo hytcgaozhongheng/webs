@@ -1,0 +1,18 @@
+#topmenu{width: 100%;height: 107px;border-bottom: 1px solid #ccc;}
+.topmenup1{width:224px;height: 90px;margin-left: 66px;padding-top: 14px;margin-right: 188px;float: left;}
+.topmenup1a{display: block;width: 224px;height: 76px;background-image: url("images/merix_logo_text.svg");line-height: 76px;background-size: 224 76;}
+.topmenup1a:hover{opacity: 0.7;}
+.topmenudiv1{width: 665px;height: 104px;float: left;}
+.topmenudiv1ul{width: 100%;height: 100%;overflow: hidden;display: block;}
+.topmenudiv1ulli{width: 133px;height: 104px;float: left;display: block;color:rgb(0,0,0);line-height: 104px;text-align: center;cursor: pointer;}
+.topmenudiv1ulli:hover{color: #d97d34;}
+
+#middlecontent{width: 100%;height: 355px;}
+#bottompicture{width: 100%;height: 341px;background-color: rgb(198,198,198);}
+.bottompicturetitle{width: 100%;height: 56px;background-color: red;}
+.bottompicturepiclist{width: 100%;height: 291px;}
+.topmenudiv2{width: 280px;height: 104px;overflow: hidden;}
+.topmenudiv2ul{width: 280px;height: 104px;}
+
+
+
