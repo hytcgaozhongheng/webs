@@ -12,7 +12,6 @@ $(function(){
 	 $(".middlecontentdivulli2li1").mouseover(function(){
 	 	$(this).parent().parent().parent().stop().animate({"width":"495px"},"slow");
 	 	$(this).stop().animate({"width":"495px"},"slow");
-	 	roll();
 	 });
 	 $(".middlecontentdivulli2li1").mouseleave(function(){
 	 	$(this).stop().animate({"width":"144px"},"slow");
@@ -23,7 +22,7 @@ $(function(){
 	 	$(this).parent().parent().parent().stop().animate({"width":"564px"},"slow");
 	   	$(this).parent().find(".middlecontentdivulli2li1").stop().animate({"width":"0px"},"slow");
 	   	$(this).stop().animate({"width":"564px"},"slow");
-	   	roll();
+	   	
 	   });
 	 $(".middlecontentdivulli2li2").mouseleave(function(){
 	 	$(this).parent().parent().parent().stop().animate({"width":"483px"},"slow");
@@ -31,17 +30,28 @@ $(function(){
 	 	$(this).stop().animate({"width":"168px"},"slow");
 	 });
 	 $(".middlecontentdivulli2li3").mouseover(function(){
-	 	$(this).parent().parent().parent().stop().animate({"width":"555px"},"slow");
+	 	$(this).parent().parent().parent().stop().animate({"width":"560px"},"slow");
 	   	$(this).parent().find(".middlecontentdivulli2li1").stop().animate({"width":"0px"},"slow");
 	   	$(this).parent().find(".middlecontentdivulli2li2").stop().animate({"width":"0px"},"slow");
 	   	$(this).stop().animate({"width":"555px"},"slow");
-	   	rollll();
+	   	
 	   });
 	 $(".middlecontentdivulli2li3").mouseleave(function(){
 	 	$(this).parent().parent().parent().stop().animate({"width":"483px"},"slow");
 	 	$(this).parent().find(".middlecontentdivulli2li1").stop().animate({"width":"144px"},"slow");
 	 	$(this).parent().find(".middlecontentdivulli2li2").stop().animate({"width":"168px"},"slow");
 	 	$(this).stop().animate({"width":"200px"},"slow");
+	 });
+	 $(".bottompicturetitle a").click(function(){
+	 	$(this).parent().find("a").removeClass("special");
+	 	$(this).addClass("special");
+	 });
+ 	$(".bottompicturepiclistpic").hover(function(){
+ 		$(this).parent().stop().animate({"background-size":"120%"},300);
+ 		$(this).stop().animate({"opacity":"0.2"},300);
+ 	},function(){
+	 	$(this).parent().stop().animate({"background-size":"100%"},300);
+	 	$(this).stop().animate({"opacity":"0.7"},300);
 	 });
 	 // $(".middlecontentdivulli2li3").hover(function(){
 
@@ -53,7 +63,7 @@ $(function(){
 	$(".middlecontentdivulli2li1").hover(
 		function() {
 
-			start=setInterval(roll,500);
+			start=setInterval(roll,700);
 		},
 	function() {
 		 
@@ -63,18 +73,18 @@ $(function(){
 	$(".middlecontentdivulli2li2").hover(
 		function() {
 
-			start=setInterval(roll,500);
+			start2=setInterval(roll1,700);
 		},
 	function() {
 		 
-		 clearInterval(start);
+		 clearInterval(start2);
 
 	});
 
 	$(".middlecontentdivulli2li3").hover(
 		function() {
 
-			start3=setInterval(rollll,500);
+			start3=setInterval(roll2,700);
 		},
 	function() {
 		 
@@ -113,6 +123,52 @@ function roll(){
 	m++;
 	if (m>5) {
 		m=1;
+	};	
+}
+
+var b=1;
+
+function roll1(){
+
+	
+	for(i=1;i<6;i++)
+	{
+		var x=$(".demo2"+i).css("top");
+		var a=x.split("px");
+		var w=a[0]-97;
+	
+
+		$(".demo2"+i).animate({"top":""+ w +"px"});
+	}
+	var z=5-b;
+	 $(".demo2"+b).animate({"top":z*97+"px"},0);
+
+	b++;
+	if (b>5) {
+		b=1;
+	};	
+}
+
+var c=1;
+
+function roll2(){
+
+	
+	for(i=1;i<6;i++)
+	{
+		var x=$(".demo3"+i).css("top");
+		var a=x.split("px");
+		var w=a[0]-97;
+	
+
+		$(".demo3"+i).animate({"top":""+ w +"px"});
+	}
+	var l=5-c;
+	 $(".demo3"+c).animate({"top":l*97+"px"},0);
+
+	c++;
+	if (c>5) {
+		c=1;
 	};	
 }
 

@@ -9,8 +9,7 @@
 
 #middlecontent{width: 100%;height: 277px;}
 #bottompicture{width: 100%;height: 283px;background-color: rgb(198,198,198);}
-.bottompicturetitle{width: 100%;height: 56px;background-color: red;}
-.bottompicturepiclist{width: 100%;height: 227px;}
+
 .qtk{width:auto;width: auto;display: block;float: right; border-right: 35px solid  rgb(255,255,255);border-top: 53px solid transparent;border-bottom: 53px solid transparent;}
 .topmenudiv2{width: 315px;height: 104px;overflow: hidden; position: absolute;top: 0;left: 100%;margin-left: -381px;}
 .topmenudiv2div{width: 80px;height: 104px;float: right;overflow: hidden;}
@@ -58,6 +57,38 @@
 .middlecontentdivulli2li1div1{width: 1000px;height: 100%;}
 .middlecontentdivulli2li1ul2li{top: 0;position: relative; font-size: 48px;line-height: 97px;font-family: TTF;color:rgb(75,75,75);display: block;text-align: left;}
 .middlecontentdivulli2li1ul3li{top: 0;position: relative; font-size: 48px;line-height: 97px;font-family: TTF;color:rgb(75,75,75);display: block;text-align: left;}
+
+
+.bottompicturetitle{width: 100%;height: 54px;background-color: rgb(255,255,255);border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;text-align: center;line-height: 54px;}
+.bottompicturetitle a{text-decoration: none;font-size: 12px;cursor: pointer;}
+.special{color: rgb(217,125,52);}
+.bottompicturepiclist{width: 100%;height: 227px;}
+.bottompicturepiclistpic{width: 100%;height: 227px;float: left;background-color: rgb(0,0,0);opacity: 0.7;}
+
+.listpic1{position: relative; width: 33.3%;height: 100%; background-image: url("images/1e264f9bdd684ee2eaa0cdbfd5799486.jpg");background-position: top center;background-size: 100%;float: left;}
+.listpic2{position: relative;width: 33.3%;height: 100%;background-image: url("images/26064dadadd36361e741897feca4330c.jpg");background-position: top center;background-size: 100%;float: left;}
+.listpic3{position: relative;width: 33.3%;height: 100%;background-image: url("images/bc77b60c333f54e4aff83faf119a75d8.jpg");background-position: top center;background-size: 100%;float: left;}
+.pictitle{position: absolute;display: block;width: 135px;height: 84px;left: 40px;top: 25px;background-image: url("images/herb_4.svg");background-size: 100%;height: 100%;background-repeat: no-repeat;}
+.pictitle1{position: absolute;display: block;width: 135px;height: 84px;left: 40px;top: 25px;background-image: url("images/nokaut_5.svg");background-size: 100%;height: 100%;background-repeat: no-repeat;}
+.pictitle2{position: absolute;display: block;width: 135px;height: 84px;left: 40px;top: 25px;background-image: url("images/payback_6.svg");background-size: 100%;height: 100%;background-repeat: no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
