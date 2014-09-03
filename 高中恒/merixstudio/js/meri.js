@@ -23,6 +23,7 @@ $(function(){
 	 	$(this).parent().parent().parent().stop().animate({"width":"564px"},"slow");
 	   	$(this).parent().find(".middlecontentdivulli2li1").stop().animate({"width":"0px"},"slow");
 	   	$(this).stop().animate({"width":"564px"},"slow");
+	   	roll();
 	   });
 	 $(".middlecontentdivulli2li2").mouseleave(function(){
 	 	$(this).parent().parent().parent().stop().animate({"width":"483px"},"slow");
@@ -34,6 +35,7 @@ $(function(){
 	   	$(this).parent().find(".middlecontentdivulli2li1").stop().animate({"width":"0px"},"slow");
 	   	$(this).parent().find(".middlecontentdivulli2li2").stop().animate({"width":"0px"},"slow");
 	   	$(this).stop().animate({"width":"555px"},"slow");
+	   	rollll();
 	   });
 	 $(".middlecontentdivulli2li3").mouseleave(function(){
 	 	$(this).parent().parent().parent().stop().animate({"width":"483px"},"slow");
@@ -47,9 +49,38 @@ $(function(){
 	 	
 	 // });
 	// setInterval("move()",2000);
-	var start=setInterval(roll,speed);
-	$(".middlecontentdivulli2li1div").onmouseover=function() {clearInterval(start)};
-	$(".middlecontentdivulli2li1div").onmouseout=function() {start=setInterval(roll,speed)};
+	
+	$(".middlecontentdivulli2li1").hover(
+		function() {
+
+			start=setInterval(roll,500);
+		},
+	function() {
+		 
+		 clearInterval(start);
+
+	});
+	$(".middlecontentdivulli2li2").hover(
+		function() {
+
+			start=setInterval(roll,500);
+		},
+	function() {
+		 
+		 clearInterval(start);
+
+	});
+
+	$(".middlecontentdivulli2li3").hover(
+		function() {
+
+			start3=setInterval(rollll,500);
+		},
+	function() {
+		 
+		 clearInterval(start3);
+
+	});
 
  });
 
@@ -62,17 +93,73 @@ $(function(){
 	  	 
 
 	 //  }
-var speed=50;
+var m=1;
 
 function roll(){
-	$(".middlecontentdivulli2li1ul2").innerHTML=$(".middlecontentdivulli2li1ul1").innerHTML;
-	if($(".middlecontentdivulli2li1ul2").offsetTop-$(".middlecontentdivulli2li1div").scrollTop<=0)  {  //当滚动到第二部分的顶部位置时
-$(".middlecontentdivulli2li1div").scrollTop-=$(".middlecontentdivulli2li1ul1").offsetHeight; //重置至第一部分顶部位置,相当于$$('box').scrollTop=0;
-}
-else{
-$(".middlecontentdivulli2li1div").scrollTop++ ;
-$$('refer').innerHTML=$(".middlecontentdivulli2li1ul2").offsetTop+' '+$(".middlecontentdivulli2li1div").offsetHeight+' '+$(".middlecontentdivulli2li1div").scrollTop  //无他，参考值尔
-}
+
+	
+	for(i=1;i<6;i++)
+	{
+		var x=$(".demo"+i).css("top");
+		var a=x.split("px");
+		var w=a[0]-97;
+	
+
+		$(".demo"+i).animate({"top":""+ w +"px"});
 	}
+	var n=5-m;
+	 $(".demo"+m).animate({"top":n*97+"px"},0);
+
+	m++;
+	if (m>5) {
+		m=1;
+	};	
+}
+
+// var o=1;
+
+// function rolll(){
+
+	
+// 	for(d=1;d<6;d++)
+// 	{
+// 		var f=$("#demo"+d).css("top");
+// 		var g=f.split("px");
+// 		var k=g[0]-97;
+	
+
+// 		$("#demo"+d).animate({"top":""+ k +"px"});
+// 	}
+// 	var z=5-o;
+// 	 $("#demo"+o).animate({"top":z*97+"px"},0);
+
+// 	o++;
+// 	if (o>5) {
+// 		o=1;
+// 	};	
+// }
+
+//  var p=1;
+
+//  function rollll(){
+
+	
+//  	for(j=1;j<6;j++)
+//  	{
+//  		var t=$("#demo3"+j).css("top");
+// 		var u=t.split("px");
+// 		var e=u[0]-97;
+		
+
+// 		$("#demo3"+j).animate({"top":""+ e +"px"});
+//  	}
+//  	var v=5-p;
+//  	 $("#demo3"+p).animate({"top":v*97+"px"},0);
+//  	p++;
+//  	if (p>5) {
+//  		p=1;
+//  	};	
+//  }
+
 
 	

@@ -53,7 +53,12 @@
 
 .middlecontentdivulli2adiv{width: 100%;height: 100%;overflow: hidden;}
 .middlecontentdivulli2adivul{width: 2000px;height: 100%;}
-.middlecontentdivulli2li1ul1li{font-size: 48px;line-height: 97px;font-family: TTF;color:rgb(75,75,75);display: block;text-align: left;}
+.middlecontentdivulli2li1ul1li{top: 0;position: relative; font-size: 48px;line-height: 97px;font-family: TTF;color:rgb(75,75,75);display: block;text-align: left;}
 .middlecontentdivulli2li1div{float: left;width: auto;height: auto;}
 .middlecontentdivulli2li1div1{width: 1000px;height: 100%;}
-.middlecontentdivulli2li1ul2li{font-size: 48px;line-height: 97px;font-family: TTF;color:rgb(75,75,75);display: block;text-align: left;}
+.middlecontentdivulli2li1ul2li{top: 0;position: relative; font-size: 48px;line-height: 97px;font-family: TTF;color:rgb(75,75,75);display: block;text-align: left;}
+.middlecontentdivulli2li1ul3li{top: 0;position: relative; font-size: 48px;line-height: 97px;font-family: TTF;color:rgb(75,75,75);display: block;text-align: left;}
+
+
+
+
